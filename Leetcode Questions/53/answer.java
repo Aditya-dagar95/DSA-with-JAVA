@@ -1,22 +1,19 @@
 class Solution {
-    public int maxProfit(int[] prices) {
-        if(prices.length == 1){
-            return 0;
+    public int maxSubArray(int[] nums) {
+
+        if(nums.length == 1){
+            return nums[0];
         }
-        int min = 99999;
-        int max = 0;
-        int profit = 0;
-        for(int num : prices){
-            if(min > num){
-                min = num;
-                max = 0;
-            } else if(max < num){
-                max = num;
-            }
-            if(max - min > profit){
-                profit = max - min;
-            }
+        int curr = nums[0];
+        int max = nums[0];
+
+        for(int i = 1; i < nums.length; i++){
+
+            curr = Math.max(nums[i], curr + nums[i]);
+
+            max = Math.max(max, curr);
         }
-        return profit;
+
+        return max;
     }
 }
