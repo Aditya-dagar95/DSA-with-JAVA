@@ -10,7 +10,7 @@ class Solution {
         }
 
         if (val < root.val) {
-            return searchBST(root.left, val);
+            return searchBST(root.left, val); 
         }
 
         return searchBST(root.right, val);
