@@ -3,7 +3,7 @@ class Solution {
 
         if (root == null) {
             return null;
-        }
+        } 
 
         if (root.val == val) {
             return root;
