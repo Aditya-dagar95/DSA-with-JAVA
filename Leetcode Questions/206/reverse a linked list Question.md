@@ -2,7 +2,7 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
  
 
-Example 1:
+Example 1: 
 
 
 Input: head = [1,2,3,4,5]
