@@ -15,7 +15,7 @@ class Solution {
             for(int num : map.keySet()){
                 if(map.get(num)>max){
                     max = map.get(num);
-                    val = num;
+                    val = num; 
                 }
             }
             map.put(val, 0);
