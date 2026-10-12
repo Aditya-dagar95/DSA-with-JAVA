@@ -9,7 +9,7 @@ class Solution {
 
         int[] res = new int[k];
 
-        for(int i = 0; i < k; i++){
+        for(int i = 0; i < k; i++){  
 
             int max = 0, val = 0;
             for(int num : map.keySet()){
