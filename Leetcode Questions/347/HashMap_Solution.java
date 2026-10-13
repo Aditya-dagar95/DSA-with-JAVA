@@ -18,7 +18,7 @@ class Solution {
                     val = num; 
                 }
             }
-            map.put(val, 0);
+            map.put(val, 0); 
             res[i] = val;
         }
 
