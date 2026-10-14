@@ -6,7 +6,7 @@ class Solution {
         for(int i = 0; i < nums.length; i++){
             int diff = target - nums[i]; 
             if(map.containsKey(diff)){
-                result[0] = i;
+                result[0] = i; 
                 result[1] = map.get(diff);
                 break;
             }else{
