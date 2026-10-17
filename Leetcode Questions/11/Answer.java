@@ -12,7 +12,7 @@ class Solution {
                 area = (right - left ) * height[right];
                 left++;
                 right--;
-            }
+            } 
 
             if(area > max){
                 max = area;
