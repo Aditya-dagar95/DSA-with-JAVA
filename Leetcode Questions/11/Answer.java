@@ -8,7 +8,7 @@ class Solution {
             } else if(height[right] < height[left]) {
                 area = (right - left) * height[right]; 
                 right--;
-            } else{
+            } else{ 
                 area = (right - left ) * height[right];
                 left++;
                 right--;
