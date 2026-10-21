@@ -3,7 +3,7 @@ class Solution {
         int left = 0, right = height.length -1, area = 0, max = 0;
         while(left < right){
             if(height[left] < height[right]){ 
-                area = (right - left) * height[left];
+                area = (right - left) * height[left]; 
                 left++;
             } else if(height[right] < height[left]) {
                 area = (right - left) * height[right]; 
