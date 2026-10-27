@@ -7,7 +7,7 @@ class Solution {
             int sum = limit, max = 2;
             while(heavy > light && max > 0){ 
                 if(sum - people[heavy] < 0) break;
-                sum -= people[heavy];
+                sum -= people[heavy]; 
                 heavy--;
                 max--;
             }
