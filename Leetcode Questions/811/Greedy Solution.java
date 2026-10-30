@@ -8,7 +8,7 @@ class Solution {
             while(heavy > light && max > 0){ 
                 if(sum - people[heavy] < 0) break;
                 sum -= people[heavy]; 
-                heavy--;
+                heavy--; 
                 max--;
             }
             while(light <= heavy && max  > 0){
